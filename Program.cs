@@ -21,11 +21,11 @@ class Program
 
         total = total * total;
 
-        Console.WriteLine(total);
+        //Console.WriteLine(total);
         string numString = Convert.ToString(total);
         
         int middle = numString.Length / 2;
-        Console.WriteLine(middle);
+        //Console.WriteLine(middle);
 
         string middleTwo = numString.Substring(middle, 2);
         
